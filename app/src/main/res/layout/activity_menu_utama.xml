@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IAK KEBOEN CODING"
+        android:textSize="34sp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/logoiakkeboen" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday Card"
+        android:onClick="goto_happyBirthday"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belajar Weight"
+        android:onClick="goto_belajarWeight"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PEMESANAN KAMAR"
+        android:onClick="goto_pemesananKamar"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Transparan"
+        android:onClick="goto_backgroundTransparan"/>
+
+</LinearLayout>
